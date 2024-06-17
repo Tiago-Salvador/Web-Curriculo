@@ -12,6 +12,14 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
       },
       {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/Tiago-Salvador/Web-Curriculo/403767b7ed0ec16de47ec9b00f456000d96142a6/assets/img/icons/html.svg"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/Tiago-Salvador/Web-Curriculo/403767b7ed0ec16de47ec9b00f456000d96142a6/assets/img/icons/css.svg"
+      },
+      {
         "name": "Java",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
       },
@@ -20,59 +28,56 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-      },
-      {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-      },
-      {
         "name": "Postgresql",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
       }
     ],
     "softSkills": [
-      "Empatia",
-      "Liderança",
-      "Trabalho em equipe",
+      "Atendiment ao Cliente",
+      "Prospecção de Vendas",
+      "Controle de Estoque",
+      "Trabalho em Equipe",
       "Flexibilidade",
-      "Organização"
+      "Organização",
+      "Criação, Desenvolvimento e Automação do WhatsApp com o Chat-Pro"
     ]
   },
   "languages": [
     "Português BR",
     "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Espanhol (intermediário)"    
   ],
-  "portfolio": [
+  "education": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
-    },
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
-    }
+        "curso": "Arquitetura e Organização de Computadores",
+        "duracao": "240 Horas",
+        "instituicao": "Faculdade Digital Descomplica",
+        "certificado_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/Certificados/Certificado%20-%20Arquitetura%20e%20Organiza%C3%A7%C3%A3o%20de%20Computadores.jpg?raw=true"
+      },
+      {
+        "curso": "Programação Básica",
+        "duracao": "160 Horas",
+        "instituicao": "Faculdade Digital Descomplica",
+        "certificado_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/Certificados/Certificado%20-%20Programming%20Basics.jpg?raw=true"
+      },
+      {
+        "curso": "Object-Oriented Developer",
+        "duracao": "240 Horas",
+        "instituicao": "Faculdade Digital Descomplica",
+        "certificado_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/Certificados/Certificado%20-%20Object-Oriented%20Developer.jpg?raw=true"
+      },
+      {
+        "curso": "DB Developer",
+        "duracao": "160 Horas",
+        "instituicao": "Faculdade Digital Descomplica",
+        "certificado_url": "https://github.com/Tiago-Salvador/Web-Curriculo/blob/main/assets/img/Certificados/Certificado%20-%20DB%20Developer.jpg?raw=true"
+      }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-    },
-    {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Academia - Engenharia do Corpo",
+      "period": "2021 - até o momento",
+      "description": "Sou um profissional com 3 anos de experiência em atendimento ao cliente, pós-vendas, prospecção e retenção de vendas. Tenho habilidades avançadas em documentação com o pacote Office e sou especialista no uso do ChatGPT para criação, desenvolvimento e manutenção do Chat PRO, uma ferramenta de automação do WhatsApp. Além disso, sou responsável pelo setor financeiro da empresa, onde aplico minha sólida experiência em administração e desenvolvimento de liderança no ambiente de trabalho, sempre focando na excelência e na melhoria contínua da empresa. "
     }
   ]
 }
