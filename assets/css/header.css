@@ -1,0 +1,104 @@
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1rem; /* Ajuste conforme necessário */
+    right: 1rem; /* Ajuste conforme necessário */
+    width: 2rem; /* Ajuste conforme necessário */
+    height: 2rem; /* Ajuste conforme necessário */
+    background-image: url('/assets/img/icons/header.svg'); /* Caminho correto para a imagem */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header .photo{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+
+
+
+.header .title{
+    font-family: "Playwrite AU VIC", cursiva;
+    text-align: center;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.informations p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:.5rem;
+    font-size: 1.25rem;
+
+
+}
+
+.header .icons {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: .5rem;
+    
+
+}
+
+.informations a{
+    color:white;
+}
+
+@media only screen and (min-width: 768px){
+
+    .header{
+        display: grid;
+        grid-template-areas: 
+        "photo title"
+        "photo information";
+        
+    }
+
+    .header .photo{
+        grid-area: photo;
+        margin: 0 auto;
+    }
+
+    .header .title{
+        grid-area: title;
+        text-align: start;
+        max-width: 280px;
+    }
+
+    .header .information{
+        grid-area: information;
+    }
+
+    .header::after {
+        width: 2rem; /* Ajuste para telas maiores */
+        height: 2rem; /* Ajuste para telas maiores */
+        top: 1.5rem; /* Ajuste conforme necessário */
+        right: 1.5rem; /* Ajuste conforme necessário */
+    }
+
+
+}
+
